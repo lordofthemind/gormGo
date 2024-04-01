@@ -1,0 +1,29 @@
+.
+├── Makefile
+├── go.mod
+├── go.sum
+├── handlers
+│   ├── person_handler.go
+│   └── person_handler_test.go
+├── helpers
+│   ├── helper_test.go
+│   └── random_generate_helper.go
+├── initializers
+│   ├── environment_init.go
+│   ├── initiliazers_test.go
+│   └── postgresql_init.go
+├── main.go
+├── main_test.go
+├── repositories
+│   ├── person_repositories.go
+│   ├── person_repository_impl.go
+│   └── person_repository_test.go
+├── tests
+│   ├── main_test.go
+│   └── test_initializers.go
+├── tree.txt
+└── types
+    ├── person_type.go
+    └── type_test.go
+
+6 directories, 20 files
