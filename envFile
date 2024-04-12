@@ -1,0 +1,5 @@
+PORT = 9090
+
+PG_DB_CONNECTION = postgres://postgres:secret-gorm2@localhost:5432/person_type_gorm?sslmode=disable
+
+PG_DB_CONNECTION_FOR_TESTING = postgres://postgres:secret-gorm2@localhost:5432/person_type_gorm_test?sslmode=disable
